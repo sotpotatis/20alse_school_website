@@ -6,7 +6,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		prerender: {
-			default: true // This is to get a static website as output. Thanks Nyx#3318 at the Svelte Discord server for the solution!
+			default: true // This is to get a static website as output. Thanks a lot Nyx#3318 at the Svelte Discord server for the solution!
 		},
 		// Override http methods in the Todo forms
 		methodOverride: {
