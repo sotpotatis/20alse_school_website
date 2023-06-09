@@ -2,6 +2,8 @@
 	// Iconify
 	import Icon from "@iconify/svelte";
 
+	// Top Banner
+	import PreservationBanner from "$lib/PreservationBanner.svelte";
 	// Projects
 	import Projects_Wrapper from "$lib/Projects_Wrapper.svelte";
 	let school_projects = [{
@@ -552,7 +554,9 @@
 	<title>albins hemsida</title>
 </svelte:head>
 
-<body class="bg-green-600 min-h-screen p-3 font-main">
+<body class="min-h-screen">
+<PreservationBanner/>
+<main class="bg-green-600  p-3 font-main">
 <div id="header" class="p-3 min-w-full border-8 text-white border-green-500 bg-green-700 flex flex-col items-center justify-center mb-10">
 	<h1 class="text-7xl font-bold">albin seijmer!</h1>
 	<p class="text-sm pt-2 flex flex-wrap flex-row flex-shrink gap-3">20alse | <span class="flex flex-row flex-wrap gap-2"><Icon icon="clarity:email-solid"/><a class="hover:underline hover:cursor-pointer" href="mailto:20alse@stockholmscience.se">20alse@stockholmscience.se</a></span>
@@ -576,4 +580,5 @@
 	kolla in min <a href="https://github.com/sotpotatis" target="_blank" class="underline hover:cursor-pointer">github</a> och/eller min <a href="https://albins.website" target="_blank" class="underline hover:cursor-pointer">personliga hemsida</a>.
 		<span class="flex flex-row flex-wrap gap-2">om du läser detta, hoppas att du får en bra dag idag!<Icon icon="ant-design:heart-filled"/></span></p>
 </div>
+</main>
 </body>
