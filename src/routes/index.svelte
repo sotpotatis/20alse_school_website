@@ -8,7 +8,7 @@
 	import Projects_Wrapper from "$lib/Projects_Wrapper.svelte";
 	let school_projects = [{
 		image: {
-			url: "https://20alse.ssis.nu/start_page_assets/dishwatcher.png",
+			url: "/start_page_assets/dishwatcher.png",
 			alt_text: "Skärmdump som visar hemsidan"
 		},
 		name: "DishWatcher",
@@ -28,7 +28,7 @@
 	},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/fishy.png",
+				url: "/start_page_assets/fishy.png",
 				alt_text: "Skärmdump som visar hemsidan"
 			},
 			name: "Fishy",
@@ -59,7 +59,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/albins_vm.png",
+				url: "/start_page_assets/albins_vm.png",
 				alt_text: "Skärmdump som visar hemsidan"
 			},
 			name: "Apache2-hemsida",
@@ -79,7 +79,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/filur.png",
+				url: "/start_page_assets/filur.png",
 				alt_text: "Skärmdump som visar hemsidan"
 			},
 			name: "Filurhemsidan",
@@ -89,7 +89,7 @@
 				border_color: "green-600",
 				onclick_action: {
 					type: "url",
-					url: "https://20alse.ssis.nu/www/filursite/",
+					url: "/www/filursite/",
 				},
 				text: "Till hemsidan",
 			}],
@@ -99,7 +99,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/uppgift1.png",
+				url: "/start_page_assets/uppgift1.png",
 				alt_text: "Skärmdump som visar hemsidan"
 			},
 			name: "Uppgift 1",
@@ -119,7 +119,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/www_folder.png",
+				url: "/start_page_assets/www_folder.png",
 				alt_text: "Skärmdump som visar hemsidan"
 			},
 			name: "/www/",
@@ -139,7 +139,7 @@
 		}]
 	let personal_projects = [{
 		image: {
-			url: "https://20alse.ssis.nu/start_page_assets/eatery_lunchmeny.png",
+			url: "/start_page_assets/eatery_lunchmeny.png",
 			alt_text: "test"
 		},
 		name: "Eatery Lunchmeny API",
@@ -170,7 +170,7 @@
 	},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/ssis_pentryansvar_api.png",
+				url: "/start_page_assets/ssis_pentryansvar_api.png",
 				alt_text: "test"
 			},
 			name: "SSIS Pentryansvar API",
@@ -201,7 +201,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/click_the_happy_man.png",
+				url: "/start_page_assets/click_the_happy_man.png",
 				alt_text: "test"
 			},
 			name: "Click the happy man!",
@@ -211,7 +211,7 @@
 				border_color: "green-600",
 				onclick_action: {
 					type: "url",
-					url: "https://20alse.ssis.nu/clicker/",
+					url: "/clicker/",
 				},
 				text: "Spela nu!",
 				icon: ""
@@ -222,7 +222,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/lunchmeny_hemsida.png",
+				url: "/start_page_assets/lunchmeny_hemsida.png",
 				alt_text: "test"
 			},
 			name: "Eatery-menyn",
@@ -232,7 +232,7 @@
 				border_color: "green-600",
 				onclick_action: {
 					type: "url",
-					url: "https://20alse.ssis.nu/lunch/",
+					url: "/lunch/",
 				},
 				text: "Se menyn!",
 				icon: ""
@@ -243,7 +243,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/ssis_retro_theme.png",
+				url: "/start_page_assets/ssis_retro_theme.png",
 				alt_text: "test"
 			},
 			name: "SSIS.nu CSS-teman",
@@ -264,7 +264,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/pentryansvar_hemsida.png",
+				url: "/start_page_assets/pentryansvar_hemsida.png",
 				alt_text: "test"
 			},
 			name: "Vem har pentryansvar?",
@@ -274,7 +274,7 @@
 				border_color: "green-600",
 				onclick_action: {
 					type: "url",
-					url: "https://20alse.ssis.nu/pentryansvar",
+					url: "/pentryansvar",
 				},
 				text: "Till hemsidan",
 			}],
@@ -284,7 +284,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/awesome_ssis.png",
+				url: "/start_page_assets/awesome_ssis.png",
 				alt_text: "test"
 			},
 			name: "Awesome SSIS",
@@ -294,7 +294,7 @@
 				border_color: "green-600",
 				onclick_action: {
 					type: "url",
-					url: "https://20alse.ssis.nu/awesome",
+					url: "/awesome",
 				},
 				text: "Till hemsidan",
 				icon: ""
@@ -315,7 +315,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/homework_management_bot.png",
+				url: "/start_page_assets/homework_management_bot.png",
 				alt_text: "test"
 			},
 			name: "20alse homework.json Management Bot",
@@ -336,7 +336,7 @@
 					border_color: "green-600",
 					onclick_action: {
 						type: "url",
-						url: "https://20alse.ssis.nu/homework.json",
+						url: "/homework.json",
 					},
 					text: "Till läxfilen",
 					icon: ""
@@ -347,7 +347,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/ssis_bot.png",
+				url: "/start_page_assets/ssis_bot.png",
 				alt_text: "test"
 			},
 			name: "SSIS-relaterad Discord-bot",
@@ -369,7 +369,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/distans.png",
+				url: "/start_page_assets/distans.png",
 				alt_text: "test"
 			},
 			name: "Vem har fjärr?",
@@ -380,7 +380,7 @@
 					border_color: "green-600",
 					onclick_action: {
 						type: "url",
-						url: "https://20alse.ssis.nu/distans/",
+						url: "/distans/",
 					},
 					text: "Källkod",
 					icon: "akar-icons:github-fill"
@@ -391,7 +391,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/ssis_discord_rpc.png",
+				url: "/start_page_assets/ssis_discord_rpc.png",
 				alt_text: "test"
 			},
 			name: "SSIS Discord RPC",
@@ -404,7 +404,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/ssis_schedule_python.png",
+				url: "/start_page_assets/ssis_schedule_python.png",
 				alt_text: "test"
 			},
 			name: "SSIS Schedule Python",
@@ -426,7 +426,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/te20a_bot.png",
+				url: "/start_page_assets/te20a_bot.png",
 				alt_text: "test"
 			},
 			name: "Te20A Bot",
@@ -438,7 +438,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/whatscomingup.png",
+				url: "/start_page_assets/whatscomingup.png",
 				alt_text: "test"
 			},
 			name: "WhatsComingUp",
@@ -460,7 +460,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/schedule_webhook.png",
+				url: "/start_page_assets/schedule_webhook.png",
 				alt_text: "test"
 			},
 			name: "SSIS Schedule Webhook",
@@ -472,7 +472,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/heldagsevent_webhook.png",
+				url: "/start_page_assets/heldagsevent_webhook.png",
 				alt_text: "test"
 			},
 			name: "SSIS Heldagsevent Webhook",
@@ -484,7 +484,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/kakservice_bot.png",
+				url: "/start_page_assets/kakservice_bot.png",
 				alt_text: "test"
 			},
 			name: "Kakservice Discord-Webhook",
@@ -506,7 +506,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/coming_soon.png",
+				url: "/start_page_assets/coming_soon.png",
 				alt_text: "test"
 			},
 			name: "SSIS Schedule Tray",
@@ -518,7 +518,7 @@
 		},
 		{
 			image: {
-				url: "https://20alse.ssis.nu/start_page_assets/lunchbot_python.png",
+				url: "/start_page_assets/lunchbot_python.png",
 				alt_text: "test"
 			},
 			name: "Lunchbot Python Library",
