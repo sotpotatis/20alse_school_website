@@ -1,0 +1,3 @@
+[submodule "static/start_page_assets"]
+	path = static/start_page_assets
+	url = https://github.com/sotpotatis/20alse.start_page_assets
